@@ -29,6 +29,6 @@ My script works as described below.  This was the easiest way for me to attack t
   13. Then it uses ddplyr to split the dataframe and calculate the means of the columns with mean and std values.
   14. Then it writes the resulting tidy data to a text file.
 
-I also uploaded my text file containing the tidy data to this repo in case I had to link to it due to difficulties with how it looked when I uploaded the file directly.  It looks fine in Notepad++ and when I read it back into R but for some reason directly uploading the file makes it not look right.  All the variables are clumped together at the top in several rows with the observations below, also clumped together.
+I also uploaded my text file containing the tidy data to this repo in case I had to link to it due to difficulties with how it looked when I uploaded the file directly.  Please download the file and put it into your working directory and use the following code to read it in for inspection: tidydata = read.table("tidy_means.txt").
 
 Thanks for reading.  Please go easy on me on the grading.
